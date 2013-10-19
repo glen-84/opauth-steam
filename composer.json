@@ -1,0 +1,27 @@
+{
+    "name": "opauth/steam",
+    "description": "Steam strategy for Opauth",
+    "keywords": ["authentication", "auth", "steam"],
+    "homepage": "https://github.com/glen-84/opauth-steam",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glen Ainscow",
+            "email": "glen.84@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://gitorious.org/lightopenid/lightopenid.git"
+        }
+    ],
+    "require": {
+        "lightopenid/lightopenid": "dev-master",
+        "opauth/opauth": "dev-wip/1.0",
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "Opauth\\": "src" }
+    }
+}

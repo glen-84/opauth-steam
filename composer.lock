@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "2464464b4e4f71e231150dae63e820e6",
+    "packages": [
+        {
+            "name": "lightopenid/lightopenid",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://gitorious.org/lightopenid/lightopenid.git",
+                "reference": "47fdce777a8753c26c0eb579dee0202f24c0e3e9"
+            },
+            "require": {
+                "php": ">=5.2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./"
+                ]
+            },
+            "homepage": "https://gitorious.org/lightopenid/lightopenid",
+            "keywords": [
+                "openid"
+            ],
+            "time": "2013-05-21 19:47:40"
+        },
+        {
+            "name": "opauth/opauth",
+            "version": "dev-wip/1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opauth/opauth.git",
+                "reference": "1e0b722a6864da5f2cbba9ffe04f23bf1909228f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opauth/opauth/zipball/1e0b722a6864da5f2cbba9ffe04f23bf1909228f",
+                "reference": "1e0b722a6864da5f2cbba9ffe04f23bf1909228f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "opauth/facebook": "Allows Facebook authentication",
+                "opauth/google": "Allows Google authentication",
+                "opauth/twitter": "Allows Twitter authentication"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Opauth": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "U-Zyn Chua",
+                    "email": "chua@uzyn.com",
+                    "homepage": "http://uzyn.com"
+                },
+                {
+                    "name": "Ceeram",
+                    "email": "c33ram@gmail.com"
+                }
+            ],
+            "description": "Multi-provider authentication framework for PHP",
+            "homepage": "http://opauth.org",
+            "keywords": [
+                "Authentication",
+                "OpenId",
+                "auth",
+                "facebook",
+                "google",
+                "oauth",
+                "omniauth",
+                "twitter"
+            ],
+            "time": "2013-09-15 18:25:44"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lightopenid/lightopenid": 20,
+        "opauth/opauth": 20
+    },
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": [
+
+    ]
+}
