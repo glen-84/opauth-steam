@@ -84,7 +84,5 @@ class Strategy extends AbstractStrategy
         $url = $this->callbackUrl();
         $this->openId = new \LightOpenID($url);
         $this->openId->returnUrl = $url;
-        $this->openId->required = $this->strategy['required'];
-        $this->openId->optional = $this->strategy['optional'];
     }
 }
