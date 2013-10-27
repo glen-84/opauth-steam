@@ -10,12 +10,6 @@
             "email": "glen.84@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git://gitorious.org/lightopenid/lightopenid.git"
-        }
-    ],
     "require": {
         "lightopenid/lightopenid": "dev-master",
         "opauth/opauth": "dev-wip/1.0",

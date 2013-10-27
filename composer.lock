@@ -3,15 +3,15 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2464464b4e4f71e231150dae63e820e6",
+    "hash": "87c0080459567bb3bbbb6ab54874db7c",
     "packages": [
         {
             "name": "lightopenid/lightopenid",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://gitorious.org/lightopenid/lightopenid.git",
-                "reference": "47fdce777a8753c26c0eb579dee0202f24c0e3e9"
+                "url": "https://git.gitorious.org/lightopenid/lightopenid.git",
+                "reference": "9d42dc24e4dd34121c98a6491bc3ef7933a68a19"
             },
             "require": {
                 "php": ">=5.2.3"
@@ -22,11 +22,15 @@
                     "./"
                 ]
             },
-            "homepage": "https://gitorious.org/lightopenid/lightopenid",
-            "keywords": [
-                "openid"
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
             ],
-            "time": "2013-05-21 19:47:40"
+            "homepage": "http://code.google.com/p/lightopenid/",
+            "keywords": [
+                "OpenId"
+            ],
+            "time": "2013-10-27 16:25:49"
         },
         {
             "name": "opauth/opauth",
