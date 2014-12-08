@@ -34,7 +34,7 @@
         },
         {
             "name": "opauth/opauth",
-            "version": "dev-wip/1.0",
+            "version": "1.0.*@dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opauth/opauth.git",
