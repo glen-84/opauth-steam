@@ -7,14 +7,14 @@
  * @license MIT License
  */
 
-namespace Opauth\Strategy\Steam;
+namespace Opauth\Steam\Strategy;
 
-use Opauth\AbstractStrategy;
+use Opauth\Opauth\AbstractStrategy;
 
 /**
  * Steam strategy for Opauth
  */
-class Strategy extends AbstractStrategy
+class Steam extends AbstractStrategy
 {
     protected $openId;
 
@@ -44,7 +44,7 @@ class Strategy extends AbstractStrategy
             return $this->response($this->openId->data, $error);
         }
 
-        $this->http->redirect($url);
+        $this->redirect($url);
     }
 
     public function callback()
